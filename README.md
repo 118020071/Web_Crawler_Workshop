@@ -4,6 +4,9 @@ A 2-class tutorial on web crawler (python version)
 I wrote a blog about it. Yeah!
 https://blog.csdn.net/JiongchouSeasky/article/details/107030714
 
+See my personal web project on:
+https://www.cuhkszofficialaccountapi.top
+
 # Recommanded Videos and Tutorials
 0. Python, C++, Java, C, Shell (lifetime)
 
