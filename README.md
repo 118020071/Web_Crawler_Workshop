@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=Fdf5aTYRW0E
 14. Charles
 https://developer.aliyun.com/article/703830
 
-14.5 ThreadPool and Scrapy
+14.5 ThreadPool, Session, Cookie, Proxy, Scrapy Framework
 
 15. Machine Learning on cracking verification code
 https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw
