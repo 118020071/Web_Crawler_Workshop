@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html?>
+    <head>
+        <title>Positioning elements in html</title>
+        <!--
+        <link rel=stylesheet type=text/css href=16.css>
+        -->
+        <link rel=stylesheet type=text/css href=17_customCursor.css>
+    </head>
+    <body>
+        <!-- 1 -->
+        <!-- block and inline element-->
+
+        <!-- block element: the horizontal line throughout 
+        the browser(take whole space), and auto-sized.
+
+        But the width of it can be less than the width
+        of browser window. There are link-break betweem
+        blocks.
+        We can nest block element within block element-->
+
+        <!-- inline element are limited in a element/
+        sized accordingly to the content, e.g. image.
+        Image inline element has margin all around,
+        but span inline element's margin is only on the left
+        and right, no top or bottom margin tho. Special
+        case see https://www.youtube.com/watch?v=RzWDDOwFPCA&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C&index=31
+        -->
+
+        <!-- inline element is usually converted into block
+        element, tho blcok can be converted into inline. Code is
+        display:block; ->> display:inline; 
+        Block element is stacked vertically while inline element
+        is stacked horizontally first. Also inline element cannot
+        be centered.-->
+        <h1></h1><p>
+        
+        <a><img class=bl src=truth.jpg></a>
+        <a><img class=bl src=truth.jpg></a>
+        <br>
+        <a><img class=inl src=truth.jpg></a>
+        <a><img class=inl src=truth.jpg></a>
+
+        </p>
+
+
+        <!-- 2 -->
+
+        <!-- floating elements -->
+        <div class=div1>
+            <p>
+                Stingrays are common in coastal tropical and subtropical marine waters throughout the world. Some species, such as Dasyatis thetidis, are found in warmer temperate oceans, and others, such as Plesiobatis daviesi, are found in the deep ocean. The river stingrays, and a number of whiptail stingrays (such as the Niger stingray), are restricted to fresh water. Most myliobatoids are demersal (inhabiting the next-to-lowest zone in the water column), but some, such as the pelagic stingray and the eagle rays, are pelagic.
+            </p>
+        </div>
+        <div class=div3>
+            <p>
+                Stingrays are common in coastal tropical and subtropical marine waters throughout the world. Some species, such as Dasyatis thetidis, are found in warmer temperate oceans, and others, such as Plesiobatis daviesi, are found in the deep ocean. The river stingrays, and a number of whiptail stingrays (such as the Niger stingray), are restricted to fresh water. Most myliobatoids are demersal (inhabiting the next-to-lowest zone in the water column), but some, such as the pelagic stingray and the eagle rays, are pelagic.
+            </p>
+        </div>
+        <div class=div2>
+            <p>
+                <img class=imagec src=truth.jpg>
+            </p>
+        </div>
+        <br><br><br>
+        
+        <!-- 3 -->
+        
+        <!-- absolute positioning, use position property,
+        it is determined by the window, not latest static
+        element-->
+        <p class=ab1>
+            The flattened bodies of stingrays allow them to effectively conceal themselves in their environments. Stingrays do this by agitating the sand and hiding beneath it. Because their eyes are on top of their bodies and their mouths on the undersides, stingrays cannot see their prey after capture; instead, they use smell
+        </p>
+        <p class=ab2>
+            The flattened bodies of stingrays allow them to effectively conceal themselves in their environments. Stingrays do this by agitating the sand and hiding beneath it. Because their eyes are on top of their bodies and their mouths on the undersides, stingrays cannot see their prey after capture; instead, they use smell
+        </p>
+
+
+
+        <!-- fixed positioning-->
+        <p class=ab3>
+            The flattened bodies of stingrays allow them to effectively conceal themselves in their environments. Stingrays do this by agitating the sand and hiding beneath it. Because their eyes are on top of their bodies and their mouths on the undersides, stingrays cannot see their prey after capture; instead, they use smell
+        </p>
+
+        <!-- relative positioning is little used -->
+
+        <p>
+        <a href=14_addPage.html>aaaaaa<br>aaaaaaaaaaaaaaa</a>
+        </p>
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <!-- 17 custom cursor and aligh image-->
+        <div class=wellwellwell>
+        <h2>text and image, align image with text</h2>
+        <p>
+            <!-- to line up image and text, we should
+            put them in one <p>(paragraph)-->
+            <img class=imageWell src=truth.jpg>
+            This is really true for everything you believe especially when you are young. however these nonsense still works whenyou are old. That is no matter what age you are at, you have chance to believe in truth. truth is relatively related to your own personal experience. what you have seen or what you have learn really decide who you are and what you tend to believe. believe in truth means dis-believe in false, it can be risky tho. since the image is a little bit large, i just keep bullshitting. i am eager for love tho but i am not ready for relationship. i have been hidding from responsibility for fear and for the future. the not sure about my own future largely limit my choice, i want academic honor, i want sweet home, but there is no way achieve both and no way to expect at this early stage. so i quit because i am so cowardly at that. god i still need to type a lot to fill in the space. okay, my friend is in a relationship and it takes him a lot of time and enery to maintain the relationship, and both side do not know how to carry on after graduation. it is quite a conflict.
+        </p>
+        </div>
+
+
+        <!-- 4 -->
+        <!-- static positioning is the default, elements 
+        all in the flow.-->
+
+
+        <!-- 5 -->
+        <!-- relative positioning, use 2 of top/bottom/left/right 
+        it just move from the div or latest static element,
+        not so stronger than absolute positioning. It can
+        put things inside a div, not just in whole window.
+    Usage: subelement is absolutely positioned, mother-element
+    is relatively positioned-->
+    </body>
+</html>

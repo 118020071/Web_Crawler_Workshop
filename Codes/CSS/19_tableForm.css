@@ -1,0 +1,27 @@
+#theForm {
+    color: coral;
+    padding: 15px;
+    background-color: cyan;
+    border: solid 2px black;
+
+    display: table;
+
+}
+
+.row {
+    display: table-row;
+}
+/* so we donot need to put all those <tr> <td> */
+
+/* make it cell */
+.row label {
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+}
+/* make it cell */

@@ -1,0 +1,56 @@
+
+img.bl {
+    padding:10px;
+    border: blue 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img.inl {
+    padding:10px;
+    border: blue 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+div.div1 {
+    width: 400px;
+    float: left;
+}/* the next element is automatically pinned to the right of div1 */
+/*float element is pinned, and we can add block element inbetween */
+
+div.div3 {
+    width: 50%;
+    float: right;
+}
+
+p.ab1, p.ab2 {
+    background-color: red;
+    color: yellow;
+}
+
+p.ab2 {
+    background-color: blue;
+    color: grey;
+
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 400px;
+    height: 100px;
+}
+
+p.ab3 {
+    background-color: blue;
+    color: white;
+
+    position: fixed;
+    top: 10px;
+    left: 300px;
+    width: 400px;
+    height: 70px;
+
+    /*when text overflows the box bbd, scroll it! */
+    overflow: scroll;/* or hidden, or auto */
+}

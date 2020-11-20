@@ -1,0 +1,37 @@
+body{
+    border-color:red;
+    border-width: 10px;
+    border-style: solid;
+ }
+
+p.equi {
+    background-color: rgb(112, 202, 150);
+    padding: 12px;
+    border-color: rgb(224, 189, 176);
+    border-width: 5px;
+    border-style: dashed;
+    margin: 40px;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+.imagec {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 3px;
+    background-color: silver;
+    border-color: rgb(224, 189, 176);
+    border-width: 5px;
+    border-style: dashed;
+}
+/*centered image*/
+/*padding: 3px <=> padding: 3px 3px 3px 3px 
+also margin property can be written in a similar way.
+
+short-hand version can also be used, e.g.:
+==border: black 2px solid;==
+
+margin=0 also works
+*/

@@ -1,0 +1,136 @@
+div {
+    display: block;
+}
+
+/* opacity */
+#bx1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: blue;
+}
+
+#bx2 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: blue;
+    opacity: 0.3;
+}
+
+#bx2:hover {
+    opacity: 1;
+}
+
+/* gradient */
+#bx3 {
+    width: 300px;
+    height: 300px;
+    float: left;
+
+    background-color: blue;
+
+    background: linear-gradient( blue, yellow, red);
+}
+
+#bx4 {
+    width: 300px;
+    height: 300px;
+    float: left;
+
+    background-color: blue;
+
+    background: linear-gradient(to top right, 
+    rgb(23, 219, 154), rgb(161, 121, 69), rgb(70, 20, 65));
+}
+
+#bx5 {
+    width: 300px;
+    height: 300px;
+    float: left;
+
+    background-color: blue;
+
+    background: linear-gradient(70deg, 
+    rgb(238, 180, 180), rgb(136, 226, 166), rgb(134, 125, 207));
+}
+
+#bx6 {
+    width: 300px;
+    height: 300px;
+    float: left;
+
+    background-color: blue;
+
+    background: linear-gradient(
+    rgb(255, 0, 0) 50%,
+     rgb(0, 0, 0) 50%);
+}
+/* at 20% down the graph, start the yellow */
+
+/* rgba(x1,x2,x3,x4): x1~x3 for rgb, x4 for opacity */
+#bx7 {
+    width: 300px;
+    height: 300px;
+    float: left;
+
+    background-color: blue;
+
+    background: linear-gradient(
+    rgba(255, 255, 0, 0.3),
+     rgba(0, 0, 255, 0.8));
+}
+
+
+
+
+/* text shadow */
+
+
+#tx1 {
+    text-align: center;
+    font: bold 60px Helvetica;
+    text-shadow: 3px 3px 5px  brown;
+}
+/* 3px 3px 5px: horizontal and vertical position of 
+the shadow, 5px for blur effect */
+
+/* multiple shadow */
+#tx2 {
+    text-align: center;
+    font: bold 60px Helvetica;
+    text-shadow: 3px 3px 5px  brown,
+                6px 6px 5px blue;
+}
+
+/* transparancy */
+#tx3 {
+    text-align: center;
+    font: bold 60px Helvetica;
+    text-shadow: 3px 3px 10px  rgba(0, 0, 255, 0.8);
+}
+
+
+
+
+/* box shadow */
+
+#bx8 {
+    width: 600px;
+    height: 200px;
+    background-color: blue;
+    box-shadow: 15px 15px 5px 7px orange;
+}
+/* 7px increase the size of the shadow */
+
+/* inner shadow */
+#bx9 {
+    width: 600px;
+    height: 200px;
+    background-color: lightgray;
+    box-shadow: inset 5px 5px 15px black;
+}

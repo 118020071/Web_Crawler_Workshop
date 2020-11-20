@@ -1,0 +1,136 @@
+/*======== for vertical manu ========*/
+
+#vert ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* list-style: none; >> get rid of bullets 
+before the unordered list*/
+/* padding/margin=0 >> control down to anchor tag
+level, 'a' for anchor tag */
+
+#vert ul li a {
+    text-decoration: none;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(201, 103, 103);
+    color: white;
+
+    display: block;
+    width: 100px;
+
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 10px;
+
+    text-align: center;
+
+    height: 15px;
+    line-height: 15px;
+}
+/* control anchor tag with PATH=ul>>li>>a */
+/* text-decoration: none; get rid of underscore of 
+the link */
+/* anchor tag is inline element, the color make space
+intense. To convert it into block element, display: block;*/
+/* margin give space between lines, padding give 
+larger button */
+/* line-height: 15px; makes text centered aligned
+vertically if u give specific height for the text */
+
+/* hover effect rule set */
+#vert ul li a:hover {
+    background-color: #d3d3d3;/*classic color*/
+
+    color:black;
+}
+
+/*======== vertical manu ========*/
+
+
+
+/*======== for horiontal manu ========*/
+#nav {
+    background-color: whitesmoke;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    font: Tahoma;
+}
+
+#nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav li{
+    display: inline;
+    padding: 15px;
+    vertical-align: middle;
+}
+/* wanna list element in the same line */
+
+#nav a{
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    vertical-align: middle;
+    background-color: chartreuse;
+}
+
+/* hover */
+#nav a:hover{
+    color:black;
+    background-color: chocolate;
+}
+
+/*======== horiontal manu ========*/
+
+
+
+
+
+/*======== for button ========*/
+
+.button {
+    background: #e7e7e7;
+    border: 1px solid;
+    border-radius: 3px;
+    font: 700 13px Helvetica,Arial;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+/* font: 700 >> how bold the font is */
+/* padding: 0 20px; >> 0 for top and bottom
+20px for left and right  */
+
+#butt ul{
+
+    padding: 0;
+    list-style-type: none;
+}
+
+#butt li {
+    display: inline;
+}
+
+#butt a{
+    color: #666;
+    text-decoration: none;
+    float: left;
+}
+/* float increase the size of the button */
+
+#butt a:hover {
+    color: #000;
+    background-color: #dadada;
+}
+/* the effect gives gradian to the button */

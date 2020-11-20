@@ -1,0 +1,21 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.blueColor{
+    color:blue;
+}
+
+p.greenText{
+    color:greenyellow;
+    text-decoration: underline;
+}
+
+h1{
+    text-decoration: line-through;
+}
+
+h2{
+    text-decoration: overline underline;
+}

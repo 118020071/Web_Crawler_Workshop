@@ -1,0 +1,27 @@
+/* type selector */
+h1 {
+    font-family: fantasy;
+}
+p {
+    font-family: monospace;
+}
+
+/* ID selector */
+#id-h22 {
+    background-color: darkorange;
+}
+
+/* Class selector */
+.Class {
+    font: icon blue;
+}
+
+/* Descendent selector */
+div.desc p span {
+    background-color: yellow;
+}
+
+/* Child selector */
+div.child>p {
+    background-color: darksalmon;
+}

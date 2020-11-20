@@ -1,0 +1,46 @@
+/*set font size:
+px
+%
+em
+keywords: xx-small, x-large, etc..*/
+
+
+body{
+    background-color: lightblue;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+p.sample1 {
+    color:rgba(115, 19, 224, 0.671);
+    font-style: italic;
+    font-size: 150%;
+}
+
+p.sample2 {
+    font-style: oblique;
+    color: #ffcf79;
+    font-size: 1.2em;
+}
+/* two font-style are almost the same
+but diff browser may show diff
+result*/
+
+
+
+/*line height property*/
+p.sample3 {
+    font-size: 25px;
+    line-height: 2em;
+}

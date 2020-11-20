@@ -1,0 +1,141 @@
+<!-- 
+    
+type selector: h1, h2, p
+
+ID selector: #name
+
+class selector: .para, p.para
+
+combine selector: h1, #name
+
+descendant selector>>> div p li a
+
+child selector(direct child)>>> ancestor>childElement
+
+sibling selector>>> h1+p (the closest p), h2~p (general
+selector, select all p under all h1)
+
+wildcard selector>>> * (select every single element 
+n the webpage)
+
+attribute selector (in elements, attributes
+can be href/src/lang)>>>
+p[xxx], 
+p[xx="xx"] (specify value of it), 
+p[xx^="xx"] (match an attribute that begins with 
+a specific value), 
+p[xx$="xx"] (match an attribute that ends with 
+a specific value)
+p[xx*="xx"] (match an attribute that has anywhere 
+inside attribute value)
+
+n-th child selector (a pseudo selector)>>>
+p:nth-child(even // odd // #n // # // #n+#)     
+(even for even-numbered elements(paragraph)// 
+odd for odd number elements// 
+#n , e.g. 3n, selectevery 3rd element// 
+# , select the n-th element//
+#n+#, e.g. 3n+4, start from 4th element and select
+every 3rd element after that)
+
+not selector (in CSS 3, change evrythings except for
+particular elements)>>>
+:not(selector){
+    color: darkgreen:
+}
+
+first-letter selector (with double colon)>>>
+p::first-letter {
+    highlight the first letter in every paragraph
+}
+p:first-line {
+    hightlight the first line in every para
+}
+
+-->
+
+<!doctype html>
+
+<html>
+
+    <head>
+        
+        <title>CSS selector</title>
+        <link rel=stylesheet type=txt/css href=20.css>
+
+    </head>
+
+    <body>
+
+        <div id=type>
+            <h1 id=t-h11>Type selector 1</h1>
+            <p>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+            <h2 id=t-h22>Type selector 2</h2>
+            <p>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+        </div>
+
+        <div id=ID>
+            <h1 id=id-h11>ID selector 1</h1>
+            <p>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+            <h2 id=id-h22>ID selector 2</h2>
+            <p>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+        </div>
+
+        <div class=Class>
+            <h1 class=Class>Class selector 1</h1>
+            <p class=Class>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+            <h2 class=Class>Class selector 2</h2>
+            <p class=Class>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+        </div>
+
+        <div class=desc>
+            <h1>Descendent selector 1</h1>
+            <p>There is no one who loves pain itself, 
+                who seeks <span>after it and wants to have it</span>, 
+                simply because it is pain.
+            </p>
+            <h2>Descendent selector 2</h2>
+            <p>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+        </div>
+
+        <div class=child>
+            <h1>Descendent selector 1</h1>
+            <p>There is no one who loves pain itself, 
+                who seeks <span>after it and wants to have it</span>, 
+                simply because it is pain.
+            </p>
+            <p>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+            <h1>Descendent selector 2</h1>
+            <p>There is no one who loves pain itself, 
+                who seeks after it and wants to have it, 
+                simply because it is pain.
+            </p>
+        </div>
+
+    </body>
+
+</html>

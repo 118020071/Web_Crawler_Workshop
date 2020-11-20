@@ -1,0 +1,37 @@
+img.singleRay {
+    display: block;
+    text-align: center;
+}
+
+#divMain {
+    color:green;
+}
+
+#divIntro {
+    color:blue;
+}
+
+h2 {
+    color:red;
+}
+
+.highlight{
+    background-color: #ffff00;
+}
+
+/* special effect */
+/*pesudo class, we do not add class to it since html can 
+recognize it. it is denoted by semi-colon */
+
+a:link {
+    color:blue;
+}/* the link will show blue before we click it */
+a:visited {
+    color:green;
+}/* when we visit the web and come back, the link will be grey */
+a:hover {
+    color:yellow;
+    cursor: grabbing;
+}/* when our mouse move to the link, the link will have another color*/
+
+/*these three states for diff situation */
