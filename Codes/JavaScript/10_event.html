@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src=10.js></script>
+    </head>
+
+    <body>
+        <div id=intro>
+            <p>Intro: the event is trigged by event handler
+                in JavaScript, e.g. functions as event occured. 
+
+                Events include onclick event, and onload event as
+                the webpage is opened.
+
+                Steps on creating event, 
+                1st is to choose element as used before, and write it
+                inside html, with xxx onclick="xxxx()".
+                2nd is to choose the type of event we wanna use,
+                e.g. onclick, or multiple events.
+            </p>
+        </div>
+
+        <div id=mouseOverEvent>
+            <p id="para" onmouseover="changeBackground()" onmouseout="backNormal()"> 
+                on mouse over event, and on mouse out event
+            </p>
+
+            <!-- <p>Do you wanna see real <span id=img1 onmouseover="newPic()" onmouseout="oldPic()">trump</span>? </p> -->
+
+            <p id='img1txt'>
+                on mouse over envent on image, swape image!
+                <img src=truth.jpg id=img1 onmouseover="newPic()" onmouseout="oldPic()" />
+
+            </p>
+            
+
+        </div>
+    </body>
+</html>

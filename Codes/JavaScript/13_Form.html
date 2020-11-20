@@ -1,0 +1,79 @@
+<!-- server side validation before submitting form 
+    to the server. so that the data doesn't need
+    to be submitted to the server and get checked
+    and send warning back, the validity can directly
+    be checked on the user side
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- <meta http-equiv="refresh" content="1;url=13_message.html" /> -->
+    <link type="text/css" rel="stylesheet" href="13.css">
+</head>
+
+<body>
+    
+    <h2>Fill out the form below and click "order now" to order</h2>
+    
+    <form id="theForm" action="13_message.html" method="post" onSubmit="return validateTextbox();">
+        <!-- post is to send message to 13_message.html, the usage of get will be told in PHP series-->
+        <!-- 1. now we wanna validate one text box, aka name text box -->
+        
+        <!-- <form id="theForm" action="13_message.html" method="post" onSubmit="validateTextbox();"> 
+            onSubmit= RETURN XX FURNCTION(), so that return false can
+            stop the form being submitted-->
+            
+            
+            
+            <div class="row">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name=""> </br> </br>
+            </div>
+            
+            <div class="row">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name=""> </br> </br>
+            </div>
+            
+            <div class="row">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name=""> </br> </br> 
+            </div>
+            
+            <div class="row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="">
+            </div>
+            
+            <br>
+            
+            <input type="submit" value="Submit">
+            
+        </form>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- we wanna put script here at the end of the body
+        because it will be rendered at the last postition
+    in the top down order of rendering the whole page,
+    just save some time-->
+        <script src="13.js"> </script>
+    </body>
+    
+    </html>

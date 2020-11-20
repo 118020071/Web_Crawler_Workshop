@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="12.js"> </script>
+</head>
+
+<body>
+
+    <button onclick='refresh()'>Click to refresh page</button>
+
+    <div id="main">
+
+        <h2>About traversing the DOM</h1>
+        <p>
+            You can go up (from child to parent).
+            Or you can go down (from parent to Child).
+            Or you can go sideway (from sibling to Sibling, to the right or to the left).
+        </p>
+
+        <p>
+        ###The Romans were then forced to retreat to Rome.  It was a total defeat.
+        </p>
+
+        <h2>###AFTERMATH OF THE BATTLE OF CANNAE</h1>
+        <p id='p3'>
+        ###After the horrific defeat at the Battle of Cannae, the Romans reinstituted 
+        Fabius' avoidance strategy.  The Romans no longer refused to meet Hannibal in 
+        head on collisons.  Rather the Roman army kept a watchful eye on Hannibal, but 
+        always at a close distance.
+        </p>
+        <p id='p4'>
+        ###The avoidance strategy worked but it took forever.  It took almost two long 
+        decades to drive Hannibal out of Italy.  And even then Hannibal was never 
+        defeated in Italy.  The Romans, adopting a tactic out of Hannibal's playbook, 
+        launched an attack against Carthage itself. This forced Hannibal to travel back 
+        to Africa to defend the city.  Here he was defeated at the Battle of Zama.
+        </p>
+        <p id='p5'>
+        ##what a good way to traversing through dom, huh?
+        </p>
+
+
+    </div>
+
+
+<button onclick="changeChildText()">change child text</button>
+<button onclick="changeParentText()">change parent text</button>
+<button onclick="changeSiblingText()">change sibling text</button>
+<!-- <div>
+
+&nbsp&nbsp
+<button onclick="newParagraph()">Click if you want to 
+read about another battle </button>
+
+&nbsp&nbsp
+<button onclick="newHeader()">Click to add a 
+new paragraph and a header</button>
+
+&nbsp&nbsp
+<button onclick="removeHeader()">Click to remove
+the added heading and paragraph attached to it</button>
+
+&nbsp&nbsp
+<button onclick="newHeaderStyle()">Click to create a 
+section with special STYLE via CSS !!!!!</button>
+
+</div> -->
+
+
+
+</body>
+</html>

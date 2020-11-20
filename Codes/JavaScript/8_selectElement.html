@@ -1,0 +1,44 @@
+<!-- DOM=Document Object Model -->
+
+<!Doctype html>
+
+<html>
+    <head>
+        <script src=8.js></script>
+    </head>
+    <body>
+
+        <!-- grab by ID-->
+
+        <p id=para1> Text as a sample paragarph</p>
+
+        <button onclick="changeStyle()">Submit</button>
+        <!-- click submit and call js function 
+        ChangeStyle() to alter some text in paral -->
+
+
+
+
+        <!-- grab by tag -->
+
+        <p id=p1>for grab by tags, the index of first p is 0 in the grab array</p>
+        <p id=p2>Text as a sample paragarph</p>
+        <p id=p3>Text as a sample paragarph</p>
+        <p id=p4>Text as a sample paragarph</p>
+        <button onclick="changeStyle2()">click to change all text</button>
+
+
+        <!-- change the style of all using for loop -->
+        <button onclick="changeAll()">Click to change style of all, using for loop</button>
+   
+   
+
+        <!-- grab by class name -->
+
+        <p class='para'>Text as a sample paragarph</p>
+        <p class='para'>Text... as a sample paragarph</p>
+        <button onclick="changeClass()">...</button>
+
+
+    </body>
+</html>

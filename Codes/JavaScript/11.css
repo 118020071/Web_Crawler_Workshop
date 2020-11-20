@@ -1,0 +1,25 @@
+body {
+    background-color: #9c9f84;
+    margin: 0px;
+    font-family: Verdana, Georgia, serif;
+    font-size: 14px;
+    }
+    
+#main {
+    background-color: #e5e4d7;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+    }
+    
+h2 {
+    font-size: 120%;
+    color: #ce282e;
+    }
+
+
+/* create new section(header/paragraph) with special style */
+#test {
+    color:darkblue;
+}
